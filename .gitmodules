@@ -1,0 +1,3 @@
+[submodule "webserver/flask-webapp-deploy"]
+	path = webserver/flask-webapp-deploy
+	url = https://github.com/CedricVo91/flask-webapp-deploy

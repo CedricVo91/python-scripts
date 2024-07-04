@@ -52,10 +52,10 @@ def visualize_performance(data, weights):
 # running the functions
 
 # offensive portfolio
-stocks = ["BRK-B", "MC.PA", "RMS.PA", "OHI", "PYPL", "AMD", "MSFT"]
+stocks = ["BRK-B", "MC.PA", "PYPL", "GOOG", "AMD"]
 start_date = "2015-01-01"
 end_date = "2023-12-31"
-weights_offensive_pf = np.array([0.3, 0.15, 0.15, 0.3, 0.05, 0.025, 0.025])
+weights_offensive_pf = np.array([0.42, 0.25, 0.17, 0.11, 0.05])
 
 
 data = fetch_data(stocks, start_date, end_date)
